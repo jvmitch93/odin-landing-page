@@ -35,79 +35,127 @@
 
 body {
     font-family: Roboto, sans-serif;
-    
+    background-color: #fbf7f4;
 }
 
 .hero {
-    background-color: #1F2937;
-    color: white;
-    padding-left: 150px;
-    padding-right: 150px;
+    background-color: #eed2cc86;
+    color: rgb(43, 43, 43);
+    padding-left: 160px;
+    padding-right: 160px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 0px 10px 0px;
+    padding: 20px 0px;
 }
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color: black;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    gap: 18px;
+    gap: 20px;
+}
 
+img {
+  border-radius: 4px;
 }
 
 .header-text {
     font-size: 18px;
-    color: #E5E7EB;
+    color: rgb(43, 43, 43);
 }
 
 .main-text {
     font-size: 48px;
     font-weight:900;
-    color: #F9FAF8;
+    color: black;
 }
 
 .hero-content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 0px 100px 0px;
+    padding: 20px 0px 52px 0px;
+    flex: 1 1 25%;
 }
 
 button {
-    background-color: #3882F6;
+    background-color: #6c9a8b;
     color: white;
     text-align: center;
     text-decoration: none;
     font-weight: bold;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 8px 16px 8px 16px;
-    margin-top: 16px;
+    margin-top: 20px;
 }
-.information {
 
+.cta > button {
+  border: white 2px solid;
+}
+
+.information {
+    text-align: center;
+    padding-top:40px;
+    font-weight: bold;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  flex: auto;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+blockquote {
+    background-color: #eed2cc86;
+    margin: 40px 160px;
+    padding: 40px;
+    border-radius: 4px;
 }
 
 .quote {
-    background-color: #e5e7eb;
+  font-style:italic;
+  font-size: 18px;
+  font-weight: lighter;
+  padding-bottom: 16px;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .cta {
-    background-color: #3882F6;
+    background-color: #6c9a8b;
     color: white;
+    margin-top: 40px;
+    padding: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
 footer {
-    background-color: #1F2937;
-    color: white;
-    padding: 30px;
+    background-color: #eed2cc86;
+    color: black;
+    padding: 20px;
+    text-align: center;
 }
